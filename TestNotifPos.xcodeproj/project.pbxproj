@@ -24,6 +24,7 @@
 		AB475B5A256FF2720024FE0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB475B5D256FF2720024FE0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB475B5F256FF2720024FE0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB475B67256FF5250024FE0F /* TestNotifPos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestNotifPos.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		AB475B50256FF2710024FE0F /* TestNotifPos */ = {
 			isa = PBXGroup;
 			children = (
+				AB475B67256FF5250024FE0F /* TestNotifPos.entitlements */,
 				AB475B51256FF2710024FE0F /* AppDelegate.swift */,
 				AB475B53256FF2710024FE0F /* SceneDelegate.swift */,
 				AB475B55256FF2710024FE0F /* ViewController.swift */,
@@ -286,7 +288,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TestNotifPos/TestNotifPos.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6SGQZ32758;
 				INFOPLIST_FILE = TestNotifPos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,7 +308,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TestNotifPos/TestNotifPos.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6SGQZ32758;
 				INFOPLIST_FILE = TestNotifPos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
